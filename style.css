@@ -1,0 +1,159 @@
+*{ margin:0; padding:0; border:0; }
+
+body {
+	background-color:#FFF;
+}
+
+#box1 {
+	width:1000px;
+	height:250px;
+}
+#logo1 {
+	float:left;
+	transform:translate(0%,0%);
+}
+
+#box2 ul {
+	list-style-type:none;
+}
+#box2 {
+	width:1000px;
+	height:60px;
+	float:left;
+	transform:translate(30%,-790%);
+}
+#box2 ul li {
+	border:#F90 solid 2px;
+	width:190px;
+	height:50px;
+	text-align:center;
+	line-height:300%;
+	float:left;
+	position:relative;
+	border-radius:20px;
+	margin:4px;
+	border:2px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+}
+#box2 ul li a {
+	text-decoration:none;
+	color:#00F;
+	display:block;
+}
+#box2 ul li a:hover {
+	background-color:#0F0;
+	border-radius:20px;
+}
+#box2 ul ul {
+	position:absolute;
+	display:none;
+}
+#box2 ul li:hover>ul {
+	display:block;
+}
+#box2 ul ul ul {
+	margin-left:190px;
+	top:0px;
+}
+#box3 {
+	width:1350px;
+	height:300px;
+	position:absolute;
+	background-image:url(image/Logo.png);
+	background-size:100% 100%;
+	transform:translate(0%,90%);
+	z-index:-1;
+	animation:slider 20s infinite linear;
+	
+	
+}
+@keyframes slider {
+		0% {background-image:url(image/image2.jpg);}
+		30% { background-image:url(image/image3.jpg);}
+		60% { background-image:url(image/image4.jpeg);}
+		90% { background-image:url(image/image5.jpg);}
+	}
+
+#box4 {
+	width:800px;
+	height:400px;
+	transform:translate(0%,65%);
+}
+#level {
+	width:550px;
+	height:100px;
+	transform:translate(130%,-290%);
+}
+
+#box5 {
+	width:1100px;
+	height:400px;
+	transform:translate(0%,135%);
+}
+#phage1 {
+	width:700px;
+	height:400px;
+	float:left;
+	transform:translate(5%,-15%);
+}
+#phage2 {
+	width:300px;
+	height:400px;
+	float:right;
+	transform:translate(-5%,-15%);
+}
+#phage2 ul li {
+	list-style-type:none;
+}
+
+.look1 {
+	padding:10px;
+}
+.look2 {
+	float:right;
+	transform:translate(-5%,-157%);
+}
+#tom1 {
+	width:250px;
+	height:100px;
+}
+#tom2 {
+	float:right;
+	width:250px;
+	height:100px;
+	transform:translate(90%,-100%);
+}
+
+#logo2 {
+	background-color:#00F;
+	width:1600px;
+	height:80px;
+	text-align:center;
+	transform:translate(-15%,600%);
+}
+
+h3 {
+	color:#FFF;
+}
+
+#box6 {
+	width:1360px;
+	height:100px;
+	transform:translate(0%,465%);
+	background-color:#000;
+}
+#love1 {
+	width:300px;
+	height:100px;
+	float:left;
+	text-align:center;
+	color:#FFF;
+}
+#love2 {
+	width:200px;
+	height:100px;
+	float:right;
+	text-align:center;
+	color:#FFF;
+}
